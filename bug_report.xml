@@ -1,1 +1,13 @@
-
+<BugReport>
+    <id>139</id>
+    <Severity>Trivial</Severity>
+    <Title>There is no menu item [Our global offices] in menu section [More] in selected languages</Title>
+    <Steps>
+        "1. Navigate to capital.com",
+		"2. Tap menu section [More]",
+		"3. Select next lenguages (BG,CZ,DK,ET,GR,ES,HR,LT,LV,NL,PT,RO,SL,SK,FL,SE)"
+    </Steps>
+    <ExpectedResult>"There is a menu item [Our global offices] in all languages in menu"</ExpectedResult>
+    <ActualResult>"There is no menu item [Our global offices] on (BG,CZ,DK,ET,GR,ES,HR,LT,LV,NL,PT,RO,SL,SK,FL,SE)"</ActualResult>
+    <Environment>"Windows 11; Chrom 112.0.5615.138"</Environment>
+</BugReport>
